@@ -26,4 +26,8 @@ def 징검다리를건너라(돌의내구도, 독):
     answer = [ 독[i]['이름'] for i in range(len(독))]
     return answer
 
+# def 징검다리를건너라(돌의내구도, 독):
+#    answer = [i['이름'] for i in 독]
+#    return answer
+
 print(징검다리를건너라(돌의내구도, 독))
